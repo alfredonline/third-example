@@ -1,8 +1,61 @@
 #navbar {
     background-color: blue;
     color: white;
+    height: 30px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#content-container {
+    display: flex;
+    height: 500px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 a {
     color: white;
+}
+
+#sidebar {
+    background-color: lightcoral;
+    color: white;
+    width: 300px;
+    float: left;
+}
+
+
+#body {
+    background-color: yellow;
+    color: black;
+    width: 600px;
+}
+
+#sidebar-right {
+    background-color: green;
+    color: white;
+    width: 300px;
+    float: right;
+}
+
+#footer {
+    background-color: orange;
+    color: white;
+    height: 100px;
 }

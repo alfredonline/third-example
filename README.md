@@ -7,3 +7,7 @@ contact me for info emample@example.com
 3) create an issue on github 
 4) run the commands from Github that appear when you create the issue
 5) Paste commands into terminal. 
+
+
+
+1) The default behaviour of a flex container is to put the items in the container next to eachother.
